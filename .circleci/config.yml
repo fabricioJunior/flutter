@@ -10,6 +10,7 @@ jobs:
           version: 3.0.3
       - flutter/install_ios_pod
       - flutter/install_ios_gem
+      
       - run:
           command: bundle exec fastlane distribute
           working_directory: ios
